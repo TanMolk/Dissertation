@@ -1,0 +1,9 @@
+.function-page-layout {
+    display: grid;
+    grid-template-columns: 10rem auto;
+}
+
+.function-page-content {
+    display: flex;
+    align-items: center;
+}

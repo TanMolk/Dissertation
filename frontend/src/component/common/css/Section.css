@@ -1,0 +1,14 @@
+.content-wrapper {
+    height: 90%;
+    display: flex;
+    align-items: center;
+}
+
+.content {
+    background-color: var(--app-content-background-color);
+    margin: auto;
+    border-radius: 3rem;
+    padding: 2rem;
+
+    max-width: 80%;
+}

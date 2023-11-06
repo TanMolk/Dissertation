@@ -1,0 +1,23 @@
+.login-content-desktop {
+    position: relative;
+    display: grid;
+    grid-template-columns: 40% 4% 56%;
+    height: 60vh;
+    width: 70vw;
+}
+
+.login-content-mobile {
+    display: flex;
+    position: relative;
+    height: 60vh;
+    width: 70vw;
+}
+.sign-up-button {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.login-buttons {
+    margin: auto;
+}

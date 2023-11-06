@@ -1,0 +1,36 @@
+:root {
+    --app-background-color: #24272a;
+    --app-header-color: #141618;
+    --app-content-background-color: #FFFFFF;
+}
+
+.line {
+    border: 1px rgba(128, 128, 128, 0.55) solid;
+    border-left-width: 0;
+    width: 0;
+    margin: 3rem 0;
+}
+
+.primary-button {
+    margin: 2rem auto 0 auto;
+    height: 5rem;
+}
+
+.back-button {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.normal-content-wrapper {
+    width: 35vw;
+    min-width: 250px;
+    height: 70vh;
+    max-width: 400px;
+
+    display: flex;
+    align-items: center;
+    position: relative;
+
+    margin: auto;
+}

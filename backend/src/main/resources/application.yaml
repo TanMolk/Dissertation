@@ -1,0 +1,22 @@
+spring:
+  jpa:
+    show-sql: false
+    hibernate:
+      naming:
+        physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
+    open-in-view: false
+  #    Database info
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username:
+    password:
+    url:
+
+web3j:
+  #  blockchain entry point
+  client-address: "http://172.17.0.2:8545"
+  wallet:
+    private-key: ""
+  contract:
+    document-integrity:
+      address: ""
